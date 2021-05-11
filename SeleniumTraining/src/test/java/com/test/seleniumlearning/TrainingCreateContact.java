@@ -14,7 +14,7 @@ public class TrainingCreateContact extends Wrapper{
 	click(locateSelector("class","decorativeSubmit"));
 	click(locateSelector("link","CRM/SFA"));
 	click(locateSelector("link","Create Contact"));
-	append(locateSelector("id","firstNameField"),"Vand");
+	append(locateSelector("id","firstNameField"),"Vand"); //Test
 	append(locateSelector("id","lastNameField"),"Yad");
 	append(locateSelector("id","createContactForm_generalProfTitle"),"Health Care");
 	append(locateSelector("id","createContactForm_departmentName"),"QA");
