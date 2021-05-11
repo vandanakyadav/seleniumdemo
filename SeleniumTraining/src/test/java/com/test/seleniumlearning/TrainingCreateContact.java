@@ -8,7 +8,7 @@ public class TrainingCreateContact extends Wrapper{
 	
 	@Test(invocationCount = 2,timeOut = 30000)
 	public void CreateContact() {
-	invokeBrowser("Chrome","http://iarchtaps.com:8080/opentaps/control/main/");
+	invokeBrowser("Chrome","http://iarchtaps.com:8080/opentaps/control/main/");  //Test
 	append(locateSelector("id","username"),"DemoSalesManager");
 	append(locateSelector("id","password"),"crmsfa");
 	click(locateSelector("class","decorativeSubmit"));
