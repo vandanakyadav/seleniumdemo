@@ -7,7 +7,7 @@ import wrapper.Wrapper;
 public class TrainingCreateContact extends Wrapper{
 	
 	@Test
-	public void CreateContact() {
+	public void CreateContact() {//en
 	invokeBrowser("Chrome","http://iarchtaps.com:8080/opentaps/control/main/");  //Test
 	append(locateSelector("id","username"),"DemoSalesManager");
 	append(locateSelector("id","password"),"crmsfa");
